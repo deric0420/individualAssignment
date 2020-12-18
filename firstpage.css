@@ -1,0 +1,72 @@
+
+body{color:rgb(91,91,91);
+  margin-top:20px;
+  padding:0;
+  font-family: Century Gothic;
+  padding-top:0;
+  background-image:url('c6qse-4hnab.gif');
+  background-color: #c2c5c2;
+  background-size: auto;
+  background-position: center;
+  height:100%;
+  background-attachment: fixed;
+}
+
+p{font-family:Impact;
+  font-size:5.5em;
+  font-style:normal;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  width: 100%;
+  font-size:1em;
+}
+
+.navbar a{
+	list-style-type:none;
+	margin-top:0.25em;
+	border: 5px inset #CCCCCC;
+	border-radius:27px;
+	width: 4em;
+    display: block;
+	padding: 12px 8px;
+	background-color: rgb(217, 0, 0);
+	float: right;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
+}  
+ 
+
+.navbar ul{
+	list-style-type:none;
+	padding-left:15%;
+	padding-right:28%;
+	margin-top: 20px;
+}
+.navbar a:link{ 
+	color:rgb(240,255,255);
+	text-decoration:none;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+  text-decoration:none;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+  text-decoration:none;
+}
+
+
+button{margin-left: 49%;
+margin-right: 41%;
+font-family:serif;
+padding-left:10px;
+padding-right:10px;}
